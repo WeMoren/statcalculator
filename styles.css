@@ -15,9 +15,19 @@ body {
   input {
     background-color: rgb(10, 10, 35);
     color: white;
-    border: 1px solid rgb(59, 59, 79);
+    border:none;
+    outline: none;
+    border-radius: 6px;
   }
   
   .bold {
     font-weight: bold;
+  }
+
+  .row{
+    text-align: center;
+  }
+
+  .h1{
+    margin-top: 1rem;
   }
